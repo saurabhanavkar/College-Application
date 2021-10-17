@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/text_margin"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/cor_icon"
+                android:layout_width="65dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_computer" />
+
+            <TextView
+                android:id="@+id/cor_title"
+                android:layout_width="175dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="@dimen/text_margin"
+                android:fontFamily="@font/robotobold"
+                android:text="Courses"
+                android:textColor="@color/titleColor"
+                android:textSize="18dp" />
+
+
+
+        </LinearLayout>
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/cor_des"
+            android:layout_width="361dp"
+            android:layout_height="match_parent"
+
+            android:layout_margin="16dp"
+            android:layout_marginHorizontal="@dimen/text_margin"
+            android:layout_marginTop="@dimen/text_margin"
+            android:fontFamily="@font/robotoregular"
+            android:text="Established in 2011,Padmashri Babasaheb Vengurlekar Mahavidyalaya(PBVM),The college is popularly known as,PBVM among the students.The institute offers a wide array of academic courses and programmes that are approved by UGC.The college,affiliated to Mumbai University,Mumbai,is widely recognized for its academic standards.Padmashri Babasaheb Vengurlekar Mahavidyalaya(PBVM),Pandurtitha takes a holistic view of education and focuses on both,academic as well as personality development of the students.The qualified and experienced faculty at college along with the carefully designed and updated curriculum ensure that the students receive the best education and skills which can help them emerge as qualified professionals.In order to provide students with quality academic environment,the college has developed all the necessary infrastructural facilities.The key among them are Hostel,Library,Laboratory,Playground,Gymkhana,Medical Help,Education loan,Auditorium,Scholarship."
+            android:textColor="@color/titleColor"
+            android:textSize="@dimen/title_size2" />
+
+
+
+    </LinearLayout>
+
+
+</com.google.android.material.card.MaterialCardView>

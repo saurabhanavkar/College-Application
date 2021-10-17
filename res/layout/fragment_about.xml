@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.about.AboutFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:scaleType="fitXY"
+            android:id="@+id/college_gate">
+        </ImageView>
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:layout_width="385dp"
+            android:layout_height="match_parent"
+
+            android:layout_margin="16dp"
+            android:layout_marginHorizontal="@dimen/text_margin"
+            android:layout_marginTop="@dimen/text_margin"
+            android:fontFamily="@font/robotoregular"
+            android:text="Established in 2011,Padmashri Babasaheb Vengurlekar Mahavidyalaya(PBVM),The college is popularly known as,PBVM among the students.The institute offers a wide array of academic courses and programmes that are approved by UGC.The college,affiliated to Mumbai University,Mumbai,is widely recognized for its academic standards.Padmashri Babasaheb Vengurlekar Mahavidyalaya(PBVM),Pandurtitha takes a holistic view of education and focuses on both,academic as well as personality development of the students.The qualified and experienced faculty at college along with the carefully designed and updated curriculum ensure that the students receive the best education and skills which can help them emerge as qualified professionals.In order to provide students with quality academic environment,the college has developed all the necessary infrastructural facilities.The key among them are Hostel,Library,Laboratory,Playground,Gymkhana,Medical Help,Education loan,Auditorium,Scholarship."
+            android:textColor="@color/titleColor"
+            android:textSize="@dimen/title_size2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/text_margin"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_label"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/text_margin"
+                android:text="Library"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/text_margin"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_label"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/text_margin"
+                android:text="Hostel"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/text_margin"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_label"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/text_margin"
+                android:text="Gymkhana"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Courses"
+            android:layout_marginTop="4dp"
+            android:textSize="@dimen/title_size"
+            android:layout_gravity="center"
+            android:fontFamily="@font/robotobold"
+            android:textColor="@color/titleColor"/>
+
+        <androidx.viewpager.widget.ViewPager
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:layout_marginTop="@dimen/text_margin"
+            android:foregroundGravity="center"
+            android:clipToPadding="false"
+            android:overScrollMode="never"
+            android:id="@+id/viewPager"/>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</androidx.core.widget.NestedScrollView>
